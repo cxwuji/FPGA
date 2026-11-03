@@ -1,0 +1,21 @@
+# TD 编译产物（可由 tools/build.sh 或 TD GUI 重新生成）
+src/td_project/*_Runs/
+src/td_project/log/
+src/td_project/.lock.f
+src/td_project/.recent_user_depot.ini
+*.db
+*.logw
+*.dmp
+
+# 仿真产物
+sim/*.vvp
+sim/*.vcd
+
+# 验收通过的上板文件（tools/build.sh 生成）
+out/
+
+# 本地音频素材（MUSIC.WAV 等，太大不入库）
+/*.wav
+/*.WAV
+sim/scaler_cases/
+__pycache__/
